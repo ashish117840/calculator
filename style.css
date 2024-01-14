@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 50px;
+}
+.container{
+    min-width: 60vw;
+    min-height: 70vh;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: aquamarine;
+}
+
+h1 {
+    color: #333;
+}
+
+#value {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: right;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#equal {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Add more styles as needed */
+

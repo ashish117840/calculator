@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">  
+    <h1>Scientific  Calculator</h1>
+    <input id="value" type="text" placeholder="0"><br><br>
+    <button onclick="backspace()">CE</button>
+    <button onclick="factorial()">x!</button>
+    <button class="btn">(</button>
+    <button class="btn">)</button>
+    <button class="btn">%</button>
+    <button onclick="clearInput()">CLR</button><br><br>
+
+    <button onclick="sin()">sin</button>
+    <button onclick="pi()">&#8508;</button>
+    <button class="btn">7</button>
+    <button class="btn">8</button>
+    <button class="btn">9</button>
+    <button class="btn">/</button><br><br>
+
+    <button onclick="cos()">cos</button>
+    <button onclick="log()">log</button>
+    <button class="btn">4</button>
+    <button class="btn">5</button>
+    <button class="btn">6</button>
+    <button class="btn">*</button><br><br>
+
+    <button onclick="tan()">tan</button>
+    <button onclick="sqrt()">&#8730;</button>
+    <button class="btn">1</button>
+    <button class="btn">2</button>
+    <button class="btn">3</button>
+    <button class="btn">-</button><br><br>
+
+    <button onclick="e()">e</button>
+    <button onclick="squre()">x<sup>2</sup></button>
+    <button class="btn">0</button>
+    <button class="btn">.</button>
+    <button id="equal" onclick="equal()">=</button>
+    <button class="btn">+</button><br><br>
+    
+    <button onclick="radian()">Rad</button>
+    <button onclick="degree()">Deg</button>
+    <script src="app.js"></script>
+  </div>
+</body>
+</html>
